@@ -2,9 +2,9 @@ FROM python:3.7.3
 
 WORKDIR /app/
 
-COPY api/api.py requirements.txt /app/
+COPY api/app.py requirements.txt /app/
 
-RUN pip install -r requirements.txt && chmod +x api.py
+RUN pip install -r requirements.txt && chmod +x app.py
 
 ENTRYPOINT ./api.py
 
