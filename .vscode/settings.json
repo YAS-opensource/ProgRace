@@ -5,7 +5,7 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "python.pythonPath": "/Users/samnan/.local/share/virtualenvs/ProgressDown-Xwt_Uhji/bin/python",
+    "python.pythonPath": "/usr/local/bin/python3",
     "python.testing.pytestArgs": [
         "tests"
     ],
