@@ -1,13 +1,16 @@
-FROM python:3.7.3
+#Grab the latest alpine image
+FROM python:latest
 
-WORKDIR /app/
+# Install python and pip
+ADD ./requirements.txt /tmp/requirements.txt
 
-COPY api/app.py requirements.txt /app/
+# Install dependencies
+RUN pip3 install --no-cache-dir -q -r /tmp/requirements.txt
 
-RUN pip install -r requirements.txt && chmod +x app.py
-
-ENTRYPOINT ./api.py
+# Add our code
+ADD ./api /opt/api/
+WORKDIR /opt/api
 
 # Run the app.  CMD is required to run on Heroku
 # $PORT is set by Heroku			
-CMD gunicorn --bind 0.0.0.0:$PORT wsgi
+CMD gunicorn --bind 0.0.0.0:$PORT wsgi 
