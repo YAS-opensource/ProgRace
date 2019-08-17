@@ -2,7 +2,7 @@
 import os
 import logging
 from svg.generator import SVG_map
-from flask import Flask, request, send_file
+from flask import Flask, request
 
 app = Flask(__name__)
 
@@ -22,6 +22,9 @@ def hello():
         TOTAL = int(data.get("total"))
     else:
         TOTAL = 100
+    
+    if TOTAL == 0:
+        TOTAL = 1
 
     if not TITLE and not PROGRESS:
         svg_generator = SVG_map(total=TOTAL)

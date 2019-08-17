@@ -6,7 +6,7 @@ class SVG_map:
         self.__total_width__ = self.__title_width__ + 70
         self.__progress__ = int(progress / total * 100)
         self.__progress__ = self.__progress__ if self.__progress__ <= 100 else 100
-        self.__progressbar_width__ = int(self.__progress__ / total * 70)
+        self.__progressbar_width__ = int(self.__progress__ / 100 * 70)
         self.__progress_color__ = self.__get_progress_color__(self.__progress__)
         self.__progress_details_x__ = self.__get_progress_details_X__(self.__progress__)
 
