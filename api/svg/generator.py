@@ -42,32 +42,32 @@ class SVG_map:
 
     def generate(self):
         svg_data = {
-            "start": '<svg xmlns="http://www.w3.org/2000/svg" width='
+            "start": '<svg xmlns="http://www.w3.org/2000/svg" width="'
             + str(self.__total_width__)
-            + ' height="20">',
+            + '" height="20">',
             "style": "<style>"
             + "    .bold { font: bold 13px sans-serif;}"
             + "    .txt { font: 13px sans-serif;}"
             + "</style>",
-            "title_rect": '<rect rx="3" width='
+            "title_rect": '<rect rx="3" width="'
             + str(self.__title_width__)
-            + ' height="20" style="fill:rgb(100,100,255)" />',
+            + '" height="20" style="fill:rgb(100,100,255)" />',
             "title": '<text x="5" y="14" class="bold" style="fill:rgb(250,250,250)">'
             + self.__title__
             + "</text>",
-            "progress_box": "<rect x="
+            "progress_box": '<rect x="'
             + str(self.__title_width__ - 5)
-            + ' rx="3" width="70" height="20" style="fill:rgb(200,200,200)" />',
-            "progress_bar": "<rect x="
+            + '" rx="3" width="70" height="20" style="fill:rgb(200,200,200)" />',
+            "progress_bar": '<rect x="'
             + str(self.__title_width__ - 5)
-            + ' rx="3" width='
+            + '" rx="3" width="'
             + str(self.__progressbar_width__)
-            + ' height="20" style='
+            + '" height="20" style="'
             + self.__progress_color__
-            + " />",
-            "progress_details": "<text x="
+            + '" />',
+            "progress_details": '<text x="'
             + str(self.__progress_details_x__)
-            + ' y="14" class="txt" style="fill:rgb(5,5,5); align:center">'
+            + '" y="14" class="txt" style="fill:rgb(5,5,5); align:center">'
             + str(self.__progress__)
             + "%</text>",
             "error_text": "Sorry, your browser does not support inline SVG.",
