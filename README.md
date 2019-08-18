@@ -31,7 +31,7 @@ You don't need to calculate the progress by hand and copy paste it here, just gi
 ![ProgDown](https://progdown.herokuapp.com/?progress=10&total=20)
 
 ```md
-![ProgDown](https://progdown.herokuapp.com/?progress=10&total=20&title=Custom)
+![ProgDown](https://progdown.herokuapp.com/?progress=10&total=20)
 ```
 
 ![ProgDown](https://progdown.herokuapp.com/?progress=755&total=1000)
