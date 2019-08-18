@@ -22,7 +22,7 @@ def hello():
         TOTAL = int(data.get("total"))
     else:
         TOTAL = 100
-    
+
     if TOTAL == 0:
         TOTAL = 1
 
@@ -34,7 +34,9 @@ def hello():
         svg_generator = SVG_map(title=TITLE, total=TOTAL)
     else:
         svg_generator = SVG_map(title=TITLE, progress=PROGRESS, total=TOTAL)
-    response = Response(svg_generator.generate(),mimetype='image/svg+xml;charset=utf-8')
+    response = Response(
+        svg_generator.generate(), mimetype="image/svg+xml;charset=utf-8"
+    )
     # response.headers['Content-Encoding'] = 'gzip'
 
     return response
