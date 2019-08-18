@@ -2,7 +2,7 @@
 import os
 import logging
 from svg.generator import SVG_map
-from flask import Flask, request
+from flask import Flask, request, Response
 
 app = Flask(__name__)
 
@@ -35,7 +35,7 @@ def hello():
     else:
         svg_generator = SVG_map(title=TITLE, progress=PROGRESS, total=TOTAL)
 
-    return svg_generator.generate()
+    return Response(svg_generator.generate(),mimetype='image/svg')
 
 
 if __name__ == "__main__":
