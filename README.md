@@ -2,7 +2,7 @@
 
 Progress-bar badges for Markdown in SVG format
 
-## Examples
+## How to use
 
 ### Default
 
@@ -26,7 +26,7 @@ Progress-bar badges for Markdown in SVG format
 
 ### Custom range
 
-You don't need to calculate the progress by hand and copy paste it here, just give pass the total range as `total` and it's done, simple as that.
+You don't need to calculate the progress by hand and copy paste it here, just pass the total range as `total` and it's done, simple as that.
 
 ![ProgDown](https://progdown.herokuapp.com/?progress=10&total=20)
 
