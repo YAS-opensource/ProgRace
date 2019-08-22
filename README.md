@@ -2,6 +2,7 @@
 
 Progress-bar badges for Markdown in SVG format
 
+[![CircleCI](https://circleci.com/gh/YAS-opensource/ProgDown.svg?style=svg)](https://circleci.com/gh/YAS-opensource/ProgDown)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://GitHub.com/YAS-opensource/ProgDown/graphs/commit-activity)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/YAS-opensource/ProgDown/master.svg?style=for-the-badge)
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
