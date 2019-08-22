@@ -5,7 +5,7 @@ Progress-bar badges for Markdown in SVG format
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://GitHub.com/YAS-opensource/ProgDown/graphs/commit-activity)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/YAS-opensource/ProgDown/master.svg?style=for-the-badge)
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6edc72900d9640d981152ef6756b8296)](https://www.codacy.com/app/geektrovert/ProgDown?utm_source=github.com&utm_medium=referral&utm_content=YAS-opensource/ProgDown&utm_campaign=Badge_Grade)
+[![Maintainability](https://api.codeclimate.com/v1/badges/98662a5d50c39656e17f/maintainability)](https://codeclimate.com/github/YAS-opensource/ProgDown/maintainability)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
 [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
