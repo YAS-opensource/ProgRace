@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import os
-import logging
 from svg.generator import SVG_map
 from flask import Flask, request, Response
 
