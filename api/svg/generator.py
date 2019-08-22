@@ -33,7 +33,7 @@ class SVG_map:
         fill:rgb(195,232,141)"
     __keys__ : tuple of str
         keys for the svg_data_list dictionary
-    
+
     Methods
     -------
 
@@ -62,7 +62,7 @@ class SVG_map:
         self.__progress__ = self.__progress__ if self.__progress__ <= 100 else 100
         self.__progressbar_width__ = int(self.__progress__ / 100 * 70)
         self.__progress_color__ = self.__get_progress_color__(self.__progress__)
-        self.__progress_details_x__ = self.__get_progress_details_X__(self.__progress__)
+        self.__progress_details_x__ = self.__get_progress_details_x__(self.__progress__)
 
     def __set_default__(self):
         """
@@ -84,7 +84,7 @@ class SVG_map:
             "end",
         )
 
-    def __get_progress_details_X__(self, progress):
+    def __get_progress_details_x__(self, progress):
         """
         Parameters
         ----------
@@ -112,7 +112,7 @@ class SVG_map:
 
         progress: int
             percentage of progress
-        
+
         Returns
         -------
 
@@ -161,7 +161,8 @@ class SVG_map:
                             + '" />',
             "progress_details": '<text x="'
                                 + str(self.__progress_details_x__)
-                                + '" y="14" class="txt" style="fill:rgb(255,255,255); align:center">'
+                                + '" y="14" class="txt" '
+                                + 'style="fill:rgb(255,255,255); align:center">'
                                 + str(self.__progress__)
                                 + "%</text>",
             "error_text": "Sorry, your browser does not support inline SVG.",
