@@ -7,7 +7,7 @@ class AppTestCase(unittest.TestCase):
     def test_root_text(self):
         tester = app.test_client(self)
         response = tester.get("/")
-        assert "30%" in response.data
+        assert "30%" in response.data.decode()
 
 
 if __name__ == "__main__":

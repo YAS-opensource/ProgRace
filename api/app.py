@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import os
-from svg.generator import SVG_map
+from api.svg.generator import SVG_map
 from flask import Flask, request, Response
 
 app = Flask(__name__)
