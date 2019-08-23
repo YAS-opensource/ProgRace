@@ -8,7 +8,9 @@ COPY ./requirements.txt /tmp/requirements.txt
 RUN pip3 install --no-cache-dir -q -r /tmp/requirements.txt
 
 # Add our code
-COPY ./api /opt/api/
+COPY ./app.py /opt/api/
+COPY ./svg /opt/api
+COPY ./wsgi.py /opt/api
 WORKDIR /opt/api
 
 # Run the app.  CMD is required to run on Heroku
