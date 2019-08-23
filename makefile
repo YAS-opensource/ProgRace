@@ -1,6 +1,6 @@
 install:
 	sudo pip -r install -U requirements.txt
 clean:
-	rm -rf .pytest_cache
-	rm -rf ./*/__pycache__/
-	rm -rf ./*/*.pyc
+	find . -name \*.pyc -type f -delete
+	find . -name __pycache__  -type d -delete
+	rm -rf .pytest_cache/
