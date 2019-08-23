@@ -1,4 +1,4 @@
-from api.app import app
+from ..api import app
 
 import unittest
 
