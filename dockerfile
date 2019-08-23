@@ -1,14 +1,14 @@
 #Grab the latest alpine image
-FROM python:latest
+FROM python:3.7.4
 
 # Install python and pip
-ADD ./requirements.txt /tmp/requirements.txt
+COPY ./requirements.txt /tmp/requirements.txt
 
 # Install dependencies
 RUN pip3 install --no-cache-dir -q -r /tmp/requirements.txt
 
 # Add our code
-ADD ./api /opt/api/
+COPY ./api /opt/api/
 WORKDIR /opt/api
 
 # Run the app.  CMD is required to run on Heroku
