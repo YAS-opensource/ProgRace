@@ -74,7 +74,7 @@ pip install -r requirements.txt
 Run the code:
 
 ```sh
-python3 api/app.py
+python3 app.py
 ```
 
 Open the browser and go to [localhost:3000](http://localhost:3000)
