@@ -66,6 +66,13 @@ jobs:
             docker login -u $DOCKERHUB_LOGIN -p $DOCKERHUB_PASSWORD
             docker push samnan/progdown:$CIRCLE_SHA1
 
+      - run:
+          name: deploy to heroku
+          command: |
+            docker login --username=$HEROKU_LOGIN --password=$HEROKU_API_KEY registry.heroku.com
+            docker tag samnan/progdown:$CIRCLE_SHA1 registry.heroku.com/$HEROKU_APP_NAME/web
+            docker push registry.heroku.com/$HEROKU_APP_NAME/web
+
 workflows:
   test-and-deploy:
     jobs:
