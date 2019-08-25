@@ -60,6 +60,12 @@ jobs:
           command: |
             docker build -t samnan/progdown:$CIRCLE_SHA1 .
 
+      - run:
+          name: push to dockerhub
+          command: |
+            docker login -u $DOCKERHUB_LOGIN -p $DOCKERHUB_PASSWORD
+            docker push samnan/progdown:$CIRCLE_SHA1
+
 workflows:
   test-and-deploy:
     jobs:
