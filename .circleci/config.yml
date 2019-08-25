@@ -56,22 +56,11 @@ jobs:
       - checkout
 
       - run:
-          name: build docker image
-          command: |
-            docker build -t samnan/progdown:$CIRCLE_SHA1 .
-
-      - run:
-          name: push to dockerhub
-          command: |
-            docker login -u $DOCKERHUB_LOGIN -p $DOCKERHUB_PASSWORD
-            docker push samnan/progdown:$CIRCLE_SHA1
-
-      - run:
           name: deploy to heroku
           command: |
             docker login --username=$HEROKU_LOGIN --password=$HEROKU_API_KEY registry.heroku.com
-            docker tag samnan/progdown:$CIRCLE_SHA1 registry.heroku.com/$HEROKU_APP_NAME/web
-            docker push registry.heroku.com/$HEROKU_APP_NAME/web
+            docker build --rm=false -t registry.heroku.com/$HEROKU_APP_NAME/web .
+            docker push registry.heroku.com/$HEROKU_APP_NAME/web:latest
 
 workflows:
   test-and-deploy:
