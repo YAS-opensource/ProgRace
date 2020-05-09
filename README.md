@@ -5,16 +5,11 @@ Progress-bar badges for Markdown in SVG format
 [![CircleCI](https://circleci.com/gh/YAS-opensource/ProgDown.svg?style=svg)](https://circleci.com/gh/YAS-opensource/ProgDown)
 [![Maintainability](https://api.codeclimate.com/v1/badges/98662a5d50c39656e17f/maintainability)](https://codeclimate.com/github/YAS-opensource/ProgDown/maintainability)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/dae907fd89fd48419685cb0f7982b590)](https://www.codacy.com/app/geektrovert/ProgDown?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YAS-opensource/ProgDown&amp;utm_campaign=Badge_Grade)
-[![Code style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://black.readthedocs.io/en/stable/)
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://GitHub.com/YAS-opensource/ProgDown/graphs/commit-activity)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/YAS-opensource/ProgDown/master.svg?style=for-the-badge)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
-
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
-[![GPLv3 license](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](./LICENSE)
-[![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://GitHub.com/YAS-opensource/ProgDown/graphs/commit-activity)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/YAS-opensource/ProgDown/master.svg?style=flat-square)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GPLv3 license](https://img.shields.io/badge/License-GPL-blue.svg?style=flat-square)](./LICENSE)
 
 ## How to use
 
