@@ -5,5 +5,5 @@ Werkzeug
 coverage
 Flask-Cors
 Flask-Script
-Flask-Testing
-flask-testing
+pytest
+pytest-cov
