@@ -6,6 +6,7 @@ from src.modules.svg.generator import SVG_map
 class ProgressBadgeAPI(MethodView):
     """ Resource for buildidng and serving SVG """
 
+    # pylint: disable=R0201
     def get(self):
         """
         Arguments
