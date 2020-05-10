@@ -69,12 +69,11 @@ class SVG_map:
         sets default attributes
         """
 
-        self.__green__ = "fill:rgb(195,232,141)"
-        self.__red__ = "fill:rgb(240,113,120)"
-        self.__yellow__ = "fill:rgb(255,203,107)"
+        self.__green__ = "#c3e88d"
+        self.__red__ = "#f07178"
+        self.__yellow__ = "#ffcb6b"
         self.__keys__ = (
             "start",
-            "style",
             "title_rect",
             "title",
             "progress_box",
@@ -139,34 +138,30 @@ class SVG_map:
             "start": '<svg xmlns="http://www.w3.org/2000/svg" width="'
                      + str(self.__total_width__)
                      + '" height="20">',
-            "style": "<style>"
-                     + "    .bold { font: bold 13px Menlo, Monaco, Consolas, monospace;}"
-                     + "    .txt { font: 13px sans-serif;}"
-                     + "</style>",
             "title_rect": '<rect rx="3" width="'
                           + str(self.__title_width__)
-                          + '" height="20" style="fill:rgb(15,17,26)" />',
-            "title": '<text x="5" y="14" class="bold" style="fill:rgb(199,146,234)">'
+                          + '" height="20" fill="#0f111a"/>',
+            "title": '<text x="5" y="14" fill="#c792ea" style="font:700 13px sans-serif">'
                      + self.__title__
                      + "</text>",
             "progress_box": '<rect x="'
                             + str(self.__title_width__ - 5)
-                            + '" rx="3" width="70" height="20" style="fill:rgb(70,75,93)" />',
+                            + '" rx="3" width="70" height="20" fill="#464b5d"/>',
             "progress_bar": '<rect x="'
                             + str(self.__title_width__ - 5)
                             + '" rx="3" width="'
                             + str(self.__progressbar_width__)
-                            + '" height="20" style="'
+                            + '" height="20" fill="'
                             + self.__progress_color__
-                            + '" />',
+                            + '"/>',
             "progress_details": '<text x="'
                                 + str(self.__progress_details_x__)
                                 + '" y="14" class="txt" '
-                                + 'style="fill:rgb(255,255,255); align:center">'
+                                + 'fill="#fff" style="align:center;font:13px sans-serif">'
                                 + str(self.__progress__)
                                 + "%</text>",
             "error_text": "Sorry, your browser does not support inline SVG.",
             "end": "</svg>",
         }
         svg_data_list = [svg_data[key] for key in self.__keys__]
-        return "\n".join(svg_data_list)
+        return "".join(svg_data_list)
