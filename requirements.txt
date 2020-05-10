@@ -2,5 +2,8 @@ Flask
 gunicorn
 Jinja2
 Werkzeug
+coverage
+Flask-Cors
+Flask-Script
 pytest
 pytest-cov

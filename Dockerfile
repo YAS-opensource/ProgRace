@@ -8,8 +8,7 @@ COPY ./requirements.txt /tmp/requirements.txt
 RUN pip3 install --no-cache-dir -q -r /tmp/requirements.txt
 
 # Add our code
-COPY ./app.py /opt/app.py
-COPY ./svg /opt/svg
+COPY ./src /opt/src
 COPY ./wsgi.py /opt/wsgi.py
 WORKDIR /opt
 
