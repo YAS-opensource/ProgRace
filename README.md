@@ -1,13 +1,13 @@
-# ProgDown
+# ProgRace
 
 Progress-bar badges for Markdown in SVG format
 
-[![CircleCI](https://circleci.com/gh/YAS-opensource/ProgDown.svg?style=svg)](https://circleci.com/gh/YAS-opensource/ProgDown)
-[![Maintainability](https://api.codeclimate.com/v1/badges/98662a5d50c39656e17f/maintainability)](https://codeclimate.com/github/YAS-opensource/ProgDown/maintainability)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dae907fd89fd48419685cb0f7982b590)](https://www.codacy.com/app/geektrovert/ProgDown?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YAS-opensource/ProgDown&amp;utm_campaign=Badge_Grade)
+[![CircleCI](https://circleci.com/gh/YAS-opensource/ProgRace.svg?style=svg)](https://circleci.com/gh/YAS-opensource/ProgRace)
+[![Maintainability](https://api.codeclimate.com/v1/badges/98662a5d50c39656e17f/maintainability)](https://codeclimate.com/github/YAS-opensource/ProgRace/maintainability)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dae907fd89fd48419685cb0f7982b590)](https://www.codacy.com/app/geektrovert/ProgRace?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YAS-opensource/ProgRace&amp;utm_campaign=Badge_Grade)
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://GitHub.com/YAS-opensource/ProgDown/graphs/commit-activity)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/YAS-opensource/ProgDown/master.svg?style=flat-square)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://GitHub.com/YAS-opensource/ProgRace/graphs/commit-activity)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/YAS-opensource/ProgRace/master.svg?style=flat-square)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![GPLv3 license](https://img.shields.io/badge/License-GPL-blue.svg?style=flat-square)](./LICENSE)
 
@@ -15,48 +15,48 @@ Progress-bar badges for Markdown in SVG format
 
 ### Default
 
-![ProgDown](https://progdown.herokuapp.com/?progress=20)
+![ProgRace](https://progdown.herokuapp.com/?progress=20)
 
 ```md
-![ProgDown](https://progdown.herokuapp.com/?progress=20)
+![ProgRace](https://progdown.herokuapp.com/?progress=20)
 ```
 
-![ProgDown](https://progdown.herokuapp.com/?progress=34)
+![ProgRace](https://progdown.herokuapp.com/?progress=34)
 
 ```md
-![ProgDown](https://progdown.herokuapp.com/?progress=34)
+![ProgRace](https://progdown.herokuapp.com/?progress=34)
 ```
 
-![ProgDown](https://progdown.herokuapp.com/?progress=80)
+![ProgRace](https://progdown.herokuapp.com/?progress=80)
 
 ```md
-![ProgDown](https://progdown.herokuapp.com/?progress=80)
+![ProgRace](https://progdown.herokuapp.com/?progress=80)
 ```
 
 ### Custom range
 
 You don't need to calculate the progress by hand and copy paste it here, just pass the total range as `total` and it's done, simple as that.
 
-![ProgDown](https://progdown.herokuapp.com/?progress=10&total=20)
+![ProgRace](https://progdown.herokuapp.com/?progress=10&total=20)
 
 ```md
-![ProgDown](https://progdown.herokuapp.com/?progress=10&total=20)
+![ProgRace](https://progdown.herokuapp.com/?progress=10&total=20)
 ```
 
-![ProgDown](https://progdown.herokuapp.com/?progress=755&total=1000)
+![ProgRace](https://progdown.herokuapp.com/?progress=755&total=1000)
 
 ```md
-![ProgDown](https://progdown.herokuapp.com/?progress=755&total=1000)
+![ProgRace](https://progdown.herokuapp.com/?progress=755&total=1000)
 ```
 
 ### Custom Title
 
 You can also give it a custom title.
 
-![ProgDown](https://progdown.herokuapp.com/?progress=50&total=100&title=Custom)
+![ProgRace](https://progdown.herokuapp.com/?progress=50&total=100&title=Custom)
 
 ```md
-![ProgDown](https://progdown.herokuapp.com/?progress=50&total=100&title=Custom)
+![ProgRace](https://progdown.herokuapp.com/?progress=50&total=100&title=Custom)
 ```
 
 ## Contributing guideline
