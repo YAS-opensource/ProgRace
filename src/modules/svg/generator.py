@@ -56,7 +56,7 @@ class SVG_map:
 
         self.__set_default__()
         self.__title__ = title
-        self.__title_width__ = len(title) * 9 + 10
+        self.__title_width__ = len(title) * 8.5 + 10
         self.__total_width__ = self.__title_width__ + 70
         self.__progress__ = int(progress / total * 100)
         self.__progress__ = self.__progress__ if self.__progress__ <= 100 else 100
@@ -140,7 +140,7 @@ class SVG_map:
                      + str(self.__total_width__)
                      + '" height="20">',
             "style": "<style>"
-                     + "    .bold { font: bold 13px sans-serif;}"
+                     + "    .bold { font: bold 13px Menlo, Monaco, Consolas, monospace;}"
                      + "    .txt { font: 13px sans-serif;}"
                      + "</style>",
             "title_rect": '<rect rx="3" width="'
