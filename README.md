@@ -15,48 +15,48 @@ Progress-bar badges for Markdown in SVG format
 
 ### Default
 
-![ProgRace](https://progdown.herokuapp.com/?progress=20)
+![ProgRace](https://prograce.herokuapp.com/?progress=20)
 
 ```md
-![ProgRace](https://progdown.herokuapp.com/?progress=20)
+![ProgRace](https://prograce.herokuapp.com/?progress=20)
 ```
 
-![ProgRace](https://progdown.herokuapp.com/?progress=34)
+![ProgRace](https://prograce.herokuapp.com/?progress=34)
 
 ```md
-![ProgRace](https://progdown.herokuapp.com/?progress=34)
+![ProgRace](https://prograce.herokuapp.com/?progress=34)
 ```
 
-![ProgRace](https://progdown.herokuapp.com/?progress=80)
+![ProgRace](https://prograce.herokuapp.com/?progress=80)
 
 ```md
-![ProgRace](https://progdown.herokuapp.com/?progress=80)
+![ProgRace](https://prograce.herokuapp.com/?progress=80)
 ```
 
 ### Custom range
 
 You don't need to calculate the progress by hand and copy paste it here, just pass the total range as `total` and it's done, simple as that.
 
-![ProgRace](https://progdown.herokuapp.com/?progress=10&total=20)
+![ProgRace](https://prograce.herokuapp.com/?progress=10&total=20)
 
 ```md
-![ProgRace](https://progdown.herokuapp.com/?progress=10&total=20)
+![ProgRace](https://prograce.herokuapp.com/?progress=10&total=20)
 ```
 
-![ProgRace](https://progdown.herokuapp.com/?progress=755&total=1000)
+![ProgRace](https://prograce.herokuapp.com/?progress=755&total=1000)
 
 ```md
-![ProgRace](https://progdown.herokuapp.com/?progress=755&total=1000)
+![ProgRace](https://prograce.herokuapp.com/?progress=755&total=1000)
 ```
 
 ### Custom Title
 
 You can also give it a custom title.
 
-![ProgRace](https://progdown.herokuapp.com/?progress=50&total=100&title=Custom)
+![ProgRace](https://prograce.herokuapp.com/?progress=50&total=100&title=Custom)
 
 ```md
-![ProgRace](https://progdown.herokuapp.com/?progress=50&total=100&title=Custom)
+![ProgRace](https://prograce.herokuapp.com/?progress=50&total=100&title=Custom)
 ```
 
 ## Contributing guideline
