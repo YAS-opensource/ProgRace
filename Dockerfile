@@ -1,5 +1,5 @@
 #Grab the latest alpine image
-FROM python:3.7.4
+FROM python:3.8.2
 
 # Install python and pip
 COPY ./requirements.txt /tmp/requirements.txt
